@@ -29,7 +29,7 @@ class Article
     /**
      * @ORM\Column(type="boolean")
      */
-    private $isActive;
+    private $isActive = false;
 
     /**
      * @ORM\Column(type="datetime")
