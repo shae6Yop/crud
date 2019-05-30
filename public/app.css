@@ -1,0 +1,62 @@
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $text-color-hl;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+        color: $text-color-hl;
+    }
+
+    @media screen and(max-width: 640px) {
+        margin-bottom: 1rem;
+    }
+}
+
+.logout {
+    display: inline-block;
+}
+
+h1 {
+    color: $text-color-hl;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.nav, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    padding: 0 1rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75rem 2rem;
+    align-content: center;
+    margin-bottom: 4rem;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+
+    @media screen and(max-width: 640px) {
+        flex-direction: column;
+    }
+}
+
+
+.nav-links {
+
+    text-align: center;
+
+    a {
+        margin: 0 0.5rem;
+        color: $text-color;
+    }
+
+}
